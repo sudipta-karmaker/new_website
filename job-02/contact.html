@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- topheader -->
+
+    <!-- Top Header -->
+    <div class="top-header">
+      <div class="container">
+        <!-- Left Side: Contact Info -->
+        <div class="top-contact">
+          <a href="mailto:info@example.com">Email: info@example.com</a>
+          <span class="divider">|</span>
+          <a href="tel:+1234567890">Phone: +1 234 567 890</a>
+        </div>
+        <!-- Right Side: Socials and Account -->
+        <div class="top-right">
+          <div class="top-social">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">X</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+          </div>
+          <div class="top-auth">
+            <a href="/login">Login</a> <span class="divider">/</span>
+            <a href="/register">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nab bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+                <img
+            src="images/pexels-matreding-11297798.jpg"
+            alt=""
+            height="50px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                target="_blank"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html" target="_blank"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html" target="_blank"
+                >Project</a
+              >
+                 <li class="nav-item">
+              <a class="nav-link" href="projectDetails.html" target="_blank"
+                >Project Details</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">
+              Login/Register
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="py-5 bg-light">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Contact Us</h2>
+            <p class="text-muted">
+                Have a project in mind? We'd love to hear from you.
+            </p>
+        </div>
+
+        <div class="row g-5">
+
+            <!-- Contact Form -->
+            <div class="col-lg-7">
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+
+                        <h4 class="mb-4">Send a Message</h4>
+
+                        <form class="needs-validation" novalidate>
+
+                            <!-- Name -->
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Enter your name"
+                                    required>
+
+                                <div class="invalid-feedback">
+                                    Please enter your name.
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <label class="form-label">Email Address</label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="example@email.com"
+                                    required>
+
+                                <div class="invalid-feedback">
+                                    Please enter a valid email.
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="mb-3">
+                                <label class="form-label">Subject</label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Enter subject"
+                                    required>
+
+                                <div class="invalid-feedback">
+                                    Subject is required.
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    rows="5"
+                                    class="form-control"
+                                    placeholder="Write your message..."
+                                    required></textarea>
+
+                                <div class="invalid-feedback">
+                                    Please enter your message.
+                                </div>
+
+                            </div>
+
+                            <button class="btn btn-primary px-4">
+                                Send Message
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-lg-5">
+
+                <div class="card shadow-sm border-0 mb-4">
+
+                    <div class="card-body">
+
+                        <h4 class="mb-4">
+                            Contact Information
+                        </h4>
+
+                        <div class="mb-4 d-flex">
+
+                            <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
+
+                            <div>
+                                <h6>Address</h6>
+
+                                <p class="text-muted mb-0">
+                                    123 Business Street,
+                                    Dhaka 1207,
+                                    Bangladesh
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="mb-4 d-flex">
+
+                            <i class="bi bi-telephone-fill text-success fs-3 me-3"></i>
+
+                            <div>
+
+                                <h6>Phone</h6>
+
+                                <p class="text-muted mb-0">
+                                    +880 1234-567890
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex">
+
+                            <i class="bi bi-envelope-fill text-danger fs-3 me-3"></i>
+
+                            <div>
+
+                                <h6>Email</h6>
+
+                                <p class="text-muted mb-0">
+                                    info@company.com
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Google Map -->
+
+                <div class="card shadow-sm border-0">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Dhaka,Bangladesh&output=embed"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- footer -->
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <p>© 2026 My Website</p>
+      </div>
+      <div class="footer-right" id="datetime">
+        <!-- Date and time will show here -->
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

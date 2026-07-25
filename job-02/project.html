@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+<!-- topheader -->
+
+<!-- Top Header -->
+<div class="top-header"> <div class="container"> <!-- Left Side: Contact Info --> <div class="top-contact"> <a href="mailto:info@example.com">Email: info@example.com</a> <span class="divider">|</span> <a href="tel:+1234567890">Phone: +1 234 567 890</a> </div> <!-- Right Side: Socials and Account --> <div class="top-right"> <div class="top-social"> <a href="https://facebook.com" target="_blank">Facebook</a> <a href="https://twitter.com" target="_blank">X</a> <a href="https://youtube.com" target="_blank">YouTube</a> </div> <div class="top-auth"> <a href="/login">Login</a> <span class="divider">/</span> <a href="/register">Register</a> </div> </div> </div> </div>
+<!-- nab bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+             <img
+            src="images/pexels-matreding-11297798.jpg"
+            alt=""
+            height="50px"
+          />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html" target="_blank">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html" target="_blank">Project</a>
+        </li>
+           <li class="nav-item">
+              <a class="nav-link" href="projectDetails.html" target="_blank"
+                >Project Details</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" target="_blank">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </li>
+     
+      </ul>
+      <form class="d-flex" role="search">
+   
+        <button class="btn btn-outline-success" type="submit">Login/Register</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- 
+project categories -->
+
+<div class="container py-5">
+
+    <div class="row">
+
+        <!-- Left Sidebar -->
+        <div class="col-lg-3 mb-4">
+
+            <div class="category-sidebar">
+
+                <h4>Categories</h4>
+
+                <button class="category-btn active">
+                    <i class="bi bi-grid-fill"></i>
+                    All Projects
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-window"></i>
+                    Web Apps
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-phone"></i>
+                    Mobile Apps
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-palette"></i>
+                    UI/UX Design
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-cart"></i>
+                    E-Commerce
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-speedometer2"></i>
+                    Dashboard
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-brush"></i>
+                    Branding
+                </button>
+
+                <button class="category-btn">
+                    <i class="bi bi-layout-text-window"></i>
+                    Landing Page
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-9">
+            <div class="bg-white rounded shadow-sm p-5 text-center">
+                <h3>Your Projects Here</h3>
+                <p class="text-muted">
+                    Display your filtered projects in this section.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Projects Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Our Projects</h2>
+            <p class="text-muted">
+                Explore some of our latest web, mobile and UI/UX projects.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Project Card 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://picsum.photos/600/400?1" class="card-img-top" alt="Project">
+
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Web App</span>
+
+                        <h5 class="card-title">
+                            E-Commerce Website
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Responsive online shopping platform built using
+                            Laravel and Bootstrap.
+                        </p>
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="projectDetails.html" class="btn btn-primary w-100">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://picsum.photos/600/400?2" class="card-img-top" alt="Project">
+
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Mobile App</span>
+
+                        <h5 class="card-title">
+                            Food Delivery App
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Android & iOS food ordering application with real-time
+                            tracking.
+                        </p>
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="projectDetails.html" class="btn btn-success w-100">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://picsum.photos/600/400?3" class="card-img-top" alt="Project">
+
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">
+                            UI/UX
+                        </span>
+
+                        <h5 class="card-title">
+                            Banking Dashboard
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Modern dashboard design with analytics and financial
+                            reports.
+                        </p>
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="projectDetails.html" class="btn btn-warning w-100">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+  
+      
+        </div>
+
+        <!-- Pagination -->
+        <nav class="mt-5">
+            <ul class="pagination justify-content-center">
+
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</section>
+<!-- footer -->
+ 
+
+
+ <footer class="site-footer">
+  <div class="footer-left">
+    <p>© 2026 My Website</p>
+  </div>
+  <div class="footer-right" id="datetime">
+    <!-- Date and time will show here -->
+  </div>
+</footer>
+ 
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <script src="js/script.js"></script>
+  </body>
+</html>

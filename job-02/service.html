@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+    <title>NSDA Exam website</title>
+  </head>
+  <body>
+<!-- topheader -->
+
+<!-- Top Header -->
+<div class="top-header"> <div class="container"> <!-- Left Side: Contact Info --> <div class="top-contact"> <a href="mailto:info@example.com">Email: info@example.com</a> <span class="divider">|</span> <a href="tel:+1234567890">Phone: +1 234 567 890</a> </div> <!-- Right Side: Socials and Account --> <div class="top-right"> <div class="top-social"> <a href="https://facebook.com" target="_blank">Facebook</a> <a href="https://twitter.com" target="_blank">X</a> <a href="https://youtube.com" target="_blank">YouTube</a> </div> <div class="top-auth"> <a href="/login">Login</a> <span class="divider">/</span> <a href="/register">Register</a> </div> </div> </div> </div>
+<!-- nab bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+            <img
+            src="images/pexels-matreding-11297798.jpg"
+            alt=""
+            height="50px"
+          />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html" target="_blank">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html" target="_blank">Project</a>
+        </li>     
+          <li class="nav-item">
+              <a class="nav-link" href="projectDetails.html" target="_blank"
+                >Project Details</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" target="_blank">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </li>
+    
+     
+      </ul>
+      <form class="d-flex" role="search">
+   
+        <button class="btn btn-outline-success" type="submit">Login/Register</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Breadcrumb Section -->
+<section class="breadcrumb-section text-center">
+    <div class="container">
+        <h1>Service Part</h1>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">
+                        <i class="bi bi-house-door-fill"></i> Home
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Pages</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <a href="">About Us</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+</section>
+<!-- service list -->
+
+<section class="service-section">
+
+<div class="container">
+
+<div class="text-center mb-5">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">
+        We provide complete digital solutions for businesses, startups,
+        and organizations through modern technologies.
+    </p>
+</div>
+
+<div class="accordion" id="serviceAccordion">
+
+    <!-- Service 1 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service1">
+
+                <i class="bi bi-code-slash service-icon"></i>
+                Web Development
+            </button>
+        </h2>
+
+        <div id="service1"
+             class="accordion-collapse collapse show"
+             data-bs-parent="#serviceAccordion">
+
+            <div class="accordion-body">
+
+                <p>
+                    We develop modern, responsive and high-performance
+                    websites using the latest technologies.
+                </p>
+
+                <ul class="service-list">
+                    <li><i class="bi bi-check-circle-fill"></i> Responsive Website</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Laravel Development</li>
+                    <li><i class="bi bi-check-circle-fill"></i> React Frontend</li>
+                    <li><i class="bi bi-check-circle-fill"></i> API Integration</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service2">
+
+                <i class="bi bi-phone service-icon"></i>
+                Mobile App Development
+            </button>
+        </h2>
+
+        <div id="service2"
+             class="accordion-collapse collapse"
+             data-bs-parent="#serviceAccordion">
+
+            <div class="accordion-body">
+
+                <p>
+                    Cross-platform mobile applications for Android and iOS
+                    with smooth performance.
+                </p>
+
+                <ul class="service-list">
+                    <li><i class="bi bi-check-circle-fill"></i> Flutter App</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Firebase Integration</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Push Notification</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Play Store Publishing</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service3">
+
+                <i class="bi bi-palette service-icon"></i>
+                UI / UX Design
+            </button>
+        </h2>
+
+        <div id="service3"
+             class="accordion-collapse collapse"
+             data-bs-parent="#serviceAccordion">
+
+            <div class="accordion-body">
+
+                <p>
+                    Beautiful user interfaces with user-centered design
+                    principles for better customer experience.
+                </p>
+
+                <ul class="service-list">
+                    <li><i class="bi bi-check-circle-fill"></i> Figma Design</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Dashboard UI</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Website Mockup</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Mobile App UI</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service4">
+
+                <i class="bi bi-cloud-arrow-up service-icon"></i>
+                Cloud & DevOps
+            </button>
+        </h2>
+
+        <div id="service4"
+             class="accordion-collapse collapse"
+             data-bs-parent="#serviceAccordion">
+
+            <div class="accordion-body">
+
+                <p>
+                    Reliable cloud deployment and server management for
+                    scalable applications.
+                </p>
+
+                <ul class="service-list">
+                    <li><i class="bi bi-check-circle-fill"></i> AWS Deployment</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Docker</li>
+                    <li><i class="bi bi-check-circle-fill"></i> CI/CD Pipeline</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Server Security</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+ 
+
+<!-- footer -->
+ 
+
+ <footer class="site-footer">
+      <div class="footer-left">
+        <p>Email:abc@gami.com</p>
+        <i class="fa-brands fa-facebook-f"></i>
+    
+      
+      </div>
+      <div><p>©Copy right 2026 My Website</p></div>
+      <div class="footer-right" id="datetime">
+        <!-- Date and time will show here -->
+      </div>
+    </footer>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <script src="js/script.js"></script>
+  </body>
+</html>
